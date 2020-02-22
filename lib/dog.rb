@@ -14,7 +14,7 @@ class Dog
   end 
   
   def self.print_all 
-    @@all.each{|song| puts song.name} 
+    @@all.each{|dog| puts dog.name} 
   end 
   
   def save 
